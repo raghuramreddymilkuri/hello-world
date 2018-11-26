@@ -189,6 +189,7 @@
         <version>1.2.1</version>
         <scope>test</scope>
       </dependency>
+             
 
       <dependency>
         <groupId>org.hamcrest</groupId>
@@ -218,3 +219,8 @@
   </prerequisites>
 
 </project>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.3.9-M1</version>
+</plugin>
